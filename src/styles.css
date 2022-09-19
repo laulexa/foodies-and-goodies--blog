@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+/* .menu-search-icons {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+} */
+.magnifying-glass-icon {
+    position: absolute;
+}
+.hamburguer-menu-icon {
+    position: absolute;
+}
