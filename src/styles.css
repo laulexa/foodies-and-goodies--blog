@@ -88,16 +88,21 @@ padding: 20px;
         border-bottom:  2px solid var(--dark-pink);
         padding-bottom: 15px;
 }
-
 .restaurant-recommendation-image {
     margin: 20px 8px 12px;
 }
 .instagram-link {
     margin-top: 8px;
     font-weight: 700;
-    color: black;
-    border-bottom:  2px solid var(--dark-pink);
-    padding-bottom: 15px;
+    color: black;   
+}
+.experiment {
+    margin-bottom: 20px;
+}
+.pictures-title {
+    border-top:  2px solid var(--dark-pink);
+    padding-top: 15px;
+    margin: 0 33px ;
 }
 .images-container--slider {
     display: flex;
@@ -119,9 +124,6 @@ padding: 20px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgb(89 73 30 / 16%);
-    
-}
-.images-link {
     
 }
 .images-card {
@@ -162,3 +164,58 @@ padding: 20px;
 }
 /* height: 491px;
     object-fit: cover; */
+
+    @media (min-width: 460px){
+        .images-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-around;
+        }
+        .image {
+            border-radius: 15px;
+            width: 200px;
+            height: 215px;
+        }
+        .restaurant-recommendation-image {
+            border-radius: 15px;
+            margin: 20px 25px 12px;
+        }
+    }
+
+@media (min-width: 900px){
+    .images-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .image {
+        border-radius: 15px;
+        
+    }
+    .cover-image {
+        height: 400px;
+        object-fit: cover;
+    }
+    .experiment {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 150px 100px;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .img1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .txt1{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .txt2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
