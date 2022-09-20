@@ -3,23 +3,99 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --dark-pink: #F44849;
+    --small: 12px;
+    --medium: 16px;
+    --large: 20px;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+}
 header {
     display: flex;
     flex-direction: column;
     position: relative;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
     min-width: 320px;
     height: auto;
 }
-/* .menu-search-icons {
+.nav-bar {
     display: flex;
     position: absolute;
     justify-content: space-between;
-} */
+    width: 100%;
+}
 .magnifying-glass-icon {
-    position: absolute;
+padding: 20px;
 }
 .hamburguer-menu-icon {
-    position: absolute;
+    padding: 20px;
 }
+.title-container {
+    background: var(--dark-pink);
+}
+.title {
+     color: white;
+     font-size: var(--large);
+     font-weight: 700;
+     padding: 20px;
+     text-align: center;
+}
+.blog-intro {
+    display: block;
+    padding: 12px 33px;
+}
+.text-home-page {
+    text-align: center;
+    color: black;
+    padding: 8px;
+    font-size: medium;
+    font-weight: 500;
+}
+.images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0 33px;
+}
+.image {
+    width: 160px;
+    height: 175px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.article-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding: 0 33px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.subtitle {
+    position: relative;
+     color: black;
+     font-size: 24px;
+     font-weight: 800;
+     text-align: center;
+     border-bottom:  2px solid var(--dark-pink);
+     padding-bottom: 15px;
+}
+
+.restaurant-recommendation-image {
+    margin: 20px 8px 12px;
+}
+.instagram-link {
+    margin-top: 8px;
+    font-weight: 700;
+    color: black;
+    border-bottom:  2px solid var(--dark-pink);
+    padding-bottom: 15px;
+}
+
+
+/* height: 491px;
+    object-fit: cover; */
