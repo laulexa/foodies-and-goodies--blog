@@ -27,6 +27,10 @@ header {
     justify-content: space-between;
     width: 100%;
 }
+.cover-image {
+    height: 200px;
+    object-fit: cover;
+}
 .magnifying-glass-icon {
 padding: 20px;
 }
