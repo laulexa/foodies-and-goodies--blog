@@ -82,7 +82,7 @@ padding: 20px;
      font-size: 24px;
      font-weight: 800;
      text-align: center;
-     margin-top: 15px;
+     margin: 15px 33px;
     }
 .text-line {
     border-bottom:  2px solid var(--dark-pink);
@@ -182,13 +182,22 @@ padding: 20px;
     object-fit: cover; */
 
     @media (min-width: 760px){ 
+        .cover-image {
+            height: 600px;
+            object-fit: cover;
+        }
         .images-container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            margin: 20px 20px;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 200px 200px;
             justify-content: space-around;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
         }
         .image {
-            border-radius: 15px;
             width: 200px;
             height: 215px;
         }
@@ -200,21 +209,43 @@ padding: 20px;
         }
         .text-home-page {
             margin: 10px 20px;
+            place-items: center;
         }
         .grid-container {
             display: grid;
             grid-template-columns: 400px 400px;
         }
+        .blog-intro-container {
+            display: grid;
+            grid-template-columns: 400px 400px;
+            justify-content: center;
+        }
+        .blog-intro {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            margin-top: 120px;
+            font-size: var(--large);
+        }
+        /* .text-intro {
+            place-content: center;
+        } */
     }
 
 @media (min-width: 1500px){
+
     .images-container {
-        display: flex;
-        justify-content: space-around;
-        border-radius: 0;
+        display: grid;
+        margin: 25px 20px;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        justify-content: spacebet;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
     .cover-image {
-        height: 400px;
+        height: 500px;
         object-fit: cover;
     }
     .grid-container {
@@ -226,5 +257,9 @@ padding: 20px;
     }
     .inactive {
         display: block;
+    }
+    .blog-intro {
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
 }
