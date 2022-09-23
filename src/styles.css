@@ -245,15 +245,14 @@ main {
         margin: 25px 20px;
         grid-template-columns: 200px 200px;
         grid-template-rows: 200px 200px;
-        justify-content: spacebet;
+        justify-content: space-between;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
     }
     .cover-image {
-        height: 500px;
-        object-fit: cover;
+        display: none;
     }
     .grid-container {
         display: grid;
