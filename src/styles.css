@@ -261,9 +261,9 @@ main {
     .text-home-page {
         margin: 10px 20px;
     }
-    .inactive {
+    /* .inactive {
         display: block;
-    }
+    } */
     .blog-intro {
         grid-column-start: 2;
         grid-column-end: 3;
