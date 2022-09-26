@@ -5,6 +5,7 @@
 }
 :root {
     --dark-pink: #F44849;
+    --light-pink: #F2D8D8;
     --small: 12px;
     --medium: 16px;
     --large: 20px;
@@ -49,6 +50,10 @@ main {
      font-weight: 700;
      padding: 20px;
      text-align: center;
+}
+.blog-intro-container {
+    background-color: var(--light-pink);
+    height: 500px;
 }
 .blog-intro {
     display: block;
