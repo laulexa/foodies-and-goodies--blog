@@ -245,6 +245,20 @@ main {
     }
 
 @media (min-width: 1500px){
+    .nav-bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .navbar-left {
+        display: flex;
+        flex-direction: row;
+    }
+    .hamburguer-menu-icon {
+        display: none;
+    }
+    .magnifying-glass-icon {
+        align-items: flex-end;
+    }
 
     .images-container {
         display: grid;
