@@ -251,7 +251,7 @@ main {
     }
     .navbar-left {
         display: flex;
-        flex-direction: row;
+        
     }
     .hamburguer-menu-icon {
         display: none;
