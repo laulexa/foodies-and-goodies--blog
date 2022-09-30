@@ -245,19 +245,44 @@ main {
     }
 
 @media (min-width: 1500px){
+   
+    .title {
+        display: none;
+    }
     .nav-bar {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background-color: var(--dark-pink);
+        justify-content: end;
     }
     .navbar-left {
+        display: grid;  
+        margin-left: 200px; 
+    }
+    .nav-bar-list {
         display: flex;
-        
+        justify-items: end;
+        align-items: center;
+        justify-content: space-between;
+        justify-self: end;
+    }
+}
+    .item {
+        align-items: center;
+        margin: 5px 20px;
+        list-style: none;
+        }
+    .item a{
+        text-decoration: none;
+        color: white;  
+        font-weight: 800px; 
     }
     .hamburguer-menu-icon {
         display: none;
     }
-    .magnifying-glass-icon {
-        
+    .magnifying-glass-icon img{
+        place-items: end;
     }
 
     .images-container {
