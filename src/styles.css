@@ -281,10 +281,17 @@ main {
     .hamburguer-menu-icon {
         display: none;
     }
+    .input-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
     .magnifying-glass-icon img{
         place-items: end;
     }
-
+    .magnifying-glass-icon {
+        padding: 5px;
+    }
     .images-container {
         display: grid;
         margin: 25px 20px;
@@ -313,4 +320,3 @@ main {
         grid-column-start: 2;
         grid-column-end: 3;
     }
-}
