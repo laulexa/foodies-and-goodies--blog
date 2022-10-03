@@ -4,7 +4,9 @@ aboutMeBtn.addEventListener('click', () => {
 
 function navigator() {
     console.log("hello");
-    if(location.hash.startsWith('#blogProfile')){
+    if(location.hash.startsWith('#home')){
+        homePage()
+    } else if(location.hash.startsWith('#blogProfile')){
         blogProfilePage()
     }
 }
