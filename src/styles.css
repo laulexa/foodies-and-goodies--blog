@@ -29,7 +29,8 @@ header {
     width: 100%;
 }
 .cover-image {
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 .input-wrapper {
@@ -55,7 +56,6 @@ main {
      text-align: center;
 }
 .blog-intro-container {
-    background-color: var(--light-pink);
     height: 620px;
     place-items: center;
 }
