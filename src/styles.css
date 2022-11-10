@@ -257,6 +257,9 @@ main {
         /* .text-intro {
             place-content: center;
         } */
+        .magnifying-glass-icon-mobile {
+            display: none;
+        }
     }
 
 @media (min-width: 1500px){
