@@ -172,7 +172,7 @@ main {
     /* padding: 0 15px; */
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgb(89 73 30 / 16%);
+    /* box-shadow: 0 4px 8px rgb(89 73 30 / 16%); */
 }
 .images-card {
     width: 70%;
@@ -181,6 +181,9 @@ main {
     height: 250px;
     border-radius: 15px;
     object-fit: cover;
+}
+.extra-card {
+    display: none;
 }
 .footer  {
     display: flex;
@@ -263,6 +266,9 @@ main {
             grid-column-end: 3;
             font-size: var(--large);
         }
+        .extra-card {
+            display: inline-block;
+        }
         /* .text-intro {
             place-content: center;
         } */
@@ -316,13 +322,18 @@ main {
     }
     .magnifying-glass-icon-desktop{
         place-items: end;
-        width: 35px;
-        background-color: #db3f3f;
+        width: 30px;
+        background-color: var(--light-pink);
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
         padding: 5px;
     }
+    .magnifying-glass-icon-desktop img {
+        width: 20px;
+        height: 20px;
+    }
     .search-bar {
+        background-color: var(--light-pink);
         border-style: none;
         padding-left: 10px;
         width: 350px;
