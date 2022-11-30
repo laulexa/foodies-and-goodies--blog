@@ -5,7 +5,7 @@
 }
 :root {
     --dark-pink: #F44849;
-    --light-pink: #F2D8D8;
+    --light-pink: #FEE2E2;
     --small: 12px;
     --medium: 16px;
     --large: 20px;
@@ -129,7 +129,15 @@ main {
     width: 400px;
     height: auto;
     justify-content: center;
-    
+}
+.main-button {
+    background-color: var(--dark-pink);
+    color: white;
+    font-weight:700;
+    font-size: var(--small);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
 }
 .pictures-title {
     border-bottom:  2px solid var(--dark-pink);
@@ -184,8 +192,8 @@ main {
 .footer-text {
     color: white;
     font-size: var(--small);
-    margin: 5px;
-    text-align: left;
+    margin: 10px;
+    text-align: center;
     width: 60%;
 }
 .social-networks {
@@ -321,6 +329,10 @@ main {
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         outline: none;
+    }
+    .main-button {
+        cursor: pointer;
+        margin: 10px;
     }
     .images-container {
         display: grid;
