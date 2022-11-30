@@ -331,6 +331,10 @@ main {
         border-bottom-left-radius: 50px;
         outline: none;
     }
+    .blog-intro-container {
+        background-color: var(--light-pink);
+        grid-template-columns: 450px 500px;
+    }
     .main-button {
         cursor: pointer;
         margin: 10px;
