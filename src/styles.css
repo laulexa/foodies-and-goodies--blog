@@ -5,6 +5,7 @@
 }
 :root {
     --dark-pink: #F44849;
+    --medium-pink: #FCA5A5;
     --light-pink: #FEE2E2;
     --small: 12px;
     --medium: 16px;
@@ -230,15 +231,55 @@ main {
 .blog-article--desktop-img-container {
     display: none;
 }
-.blog-articles-intro {
-
-}
 .text-blog-article{
     text-align: justify;
     color: black;
     font-size: var(--medium);
     font-weight: 500;
 }
+.blog-articles--images-container-slider {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    justify-content: start;
+}
+/* hide scrollbar but allow scrolling */
+.blog-articles--images-container-slider {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+.blog-articles--images-container-slider::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.label-container--card {
+    background-color: var(--medium-pink);
+    position: relative;
+    scroll-snap-align: center;
+    /* min-width: 60px;
+    max-width: 70px; */
+    margin: 15px 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    /* box-shadow: 0 4px 8px rgb(89 73 30 / 16%); */
+    text-decoration: none;
+}
+.label-container--card a {
+    color: black;
+    text-decoration: none;
+}
+
+/* .images-card {
+    width: 70%;
+    min-width: 190px;
+    max-width: 310px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+} */
+
+
+
 
     @media (min-width: 760px){ 
         .cover-image {
@@ -291,7 +332,12 @@ main {
         /* .text-intro {
             place-content: center;
         } */
-        
+        .blog-articles--images-container-slider {
+            justify-content: center;
+        }
+        .desktop-article {
+            display: none;
+        }
     }
 
 @media (min-width: 1500px){   
@@ -408,5 +454,11 @@ main {
         width: 750px;
         padding: 20px;
         place-self: center;
+    }
+    .grid-container-desktop {
+        grid-template-columns: 400px 400px 400px;
+    }
+    .desktop-article {
+        display: inline-block;
     }
 }
