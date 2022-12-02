@@ -111,6 +111,7 @@ main {
     margin-bottom: 16px;
     font-weight: bold;
     text-align: center;
+    padding: 5px;
 }
 .article-text{
     margin-bottom: 16px;
@@ -131,6 +132,10 @@ main {
     width: 400px;
     height: auto;
     justify-content: center;
+}
+.line {
+    margin: 15px 20px;
+    border-bottom:  2px solid var(--dark-pink);
 }
 .main-button {
     background-color: var(--dark-pink);
@@ -216,6 +221,9 @@ main {
     height: 15px;
     margin-left: 2px;
 }
+/* .inactive {
+    display: none;
+} */
 /* height: 491px;
     object-fit: cover; */
     
@@ -284,14 +292,11 @@ main {
     text-align: center;
     border-bottom:  2px solid var(--dark-pink);
 }
-.inactive {
+/* .inactive {
     display: none;
-}
+} */
 
-
-
-
-@media (min-width: 760px){ 
+    @media (min-width: 760px){ 
         .cover-image {
             height: 600px;
             object-fit: cover;
@@ -308,6 +313,11 @@ main {
         }
         .image {
             width: 200px;
+            height: 215px;
+            object-fit: cover;
+        }
+        .image3 {
+            width: 320px;
             height: 215px;
             margin-top: 0;
         }
@@ -464,6 +474,7 @@ main {
         width: 750px;
         padding: 20px;
         place-self: center;
+        margin-left: 50px;
     }
     .grid-container-desktop {
         grid-template-columns: 400px 400px 400px;
