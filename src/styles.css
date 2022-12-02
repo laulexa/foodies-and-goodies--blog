@@ -221,6 +221,9 @@ main {
     height: 15px;
     margin-left: 2px;
 }
+/* .inactive {
+    display: none;
+} */
 /* height: 491px;
     object-fit: cover; */
     
@@ -309,6 +312,11 @@ main {
             grid-row-end: 2;
         }
         .image {
+            width: 200px;
+            height: 215px;
+            object-fit: cover;
+        }
+        .image3 {
             width: 320px;
             height: 215px;
             margin-top: 0;
