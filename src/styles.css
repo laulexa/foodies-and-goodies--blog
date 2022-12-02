@@ -137,6 +137,12 @@ main {
     margin: 15px 20px;
     border-bottom:  2px solid var(--dark-pink);
 }
+.article-post-container {
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+}
 .main-button {
     background-color: var(--dark-pink);
     color: white;
@@ -287,7 +293,7 @@ main {
 }
 .blog-article-title {
     font-size: var(--large);
-    margin-bottom: 16px;
+    margin: 15px 20px 0;
     font-weight: bold;
     text-align: center;
     border-bottom:  2px solid var(--dark-pink);
@@ -358,6 +364,17 @@ main {
         .desktop-article {
             display: none;
         }
+        .blog-content-container {
+            
+        }
+        .article-post-container {
+            width: auto;
+            margin: 20px;
+        }
+        .text-home-page {
+            width: auto;
+        }
+        
     }
 
 @media (min-width: 1500px){   
