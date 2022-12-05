@@ -11,7 +11,7 @@
     <title>Foodielexa</title>
 </head>
 <body>
-    <header>
+    <header id="navBarHeader">
         <!-- mobile nab-bar -->
         <nav class="mobile-nav-bar">
             <img src="../img/icons/hamburguer-menu.png" alt="Menu" class="hamburguer-menu-icon">
@@ -27,8 +27,7 @@
                 <ul class="nav-bar-list">
                     <li class="item home-btn"><a href="#">Home</a></li>
                     <li class="item blog-btn"><a href="#">Blog</a></li>
-                    <li class="item Things-to-do-btn"><a href="#">Things to do</a></li>
-                    <li class="item best-restaurants-btn"><a href="#">Best Restaurants</a></li>
+                    <li class="item restaurants-btn"><a href="#">Restaurants</a></li>
                     <li class="item about-me-button"><a href="#">About Me</a></li>
                 </ul>
             </div>
@@ -42,7 +41,7 @@
 
     <main>
         <!-- home -->
-        <section class="home inactive">
+        <section id='homeSection' class="home">
             <img src="../img/coffeeAndBread.jpg" alt="Image of a cup of coffee and one bread" class="cover-image">      
             <section class="blog-intro-container">
                 <!-- welcome message -->
@@ -95,7 +94,7 @@
             </section>
         </section>
         <!-- blog-articles -->
-        <section class="blog-articles inactive">
+        <section id="blogArticlesSection" class="blog-articles">
             <section class="blog-articles--intro-container">
                 <div class="blog-article--desktop-img-container">
                     <img src="../img/ramen.jpg" alt="ramen picture" class="image3">
@@ -182,48 +181,49 @@
             </section>
         </section>
         <!-- blog-content -->
-            <section class="blog-content">
-                <section class="blog-content-container">
-                    <article class="article-post-container text-mobile">
-                        <p class="blog-article-title">Asadero Prime</p>
-                        <img src="../img/coffee-with-decoration.jpg" alt="Coffee picture" class="images-blog-post img1 article-image">
-                        <p class="text-home-page txt2 text-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Click for more recommendations
-                            check some pictures
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, </p>
-                    </article>
-                        <div class=" image2">
-                            <img src="../img/ramen.jpg" alt="ramen picture" class="image">
-                            <img src="../img/latte-and-bread.jpg" alt="latte and bread picture" class="image">
-                            <img src="../img/bubble-tea.jpg" alt="bubble-tea picture" class="image">
-                            <img src="../img/teas.jpg" alt="tea picture" class="image">
-                        </div>
-                </section>
-            <!-- check some pictures -->
-            <h3 class="subtitle pictures-title">check some pictures</h3>
-            <section class="images-container--slider">
-                <article class="pictures-container--card">
-                    <a href="#" class="images-link"><img src="../img/french-pastry.jpg" alt="french pastry picture" class="images-card"></a>
+        <section class="blog-content" id="blogContentSection">
+            <section class="blog-content-container">
+                <article class="article-post-container text-mobile">
+                    <p class="blog-article-title">Asadero Prime</p>
+                    <img src="../img/coffee-with-decoration.jpg" alt="Coffee picture" class="images-blog-post img1 article-image">
+                    <p class="text-home-page txt2 text-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Click for more recommendations
+                        check some pictures
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, aliquam semper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi ac velit tempus, ut dictum purus accumsan. Duis neque augue, imperdiet ut risus id, </p>
                 </article>
-                <article class="pictures-container--card">
-                    <a href="#" class="images-link"><img src="../img/coffee-with-decoration.jpg" alt=" coffee and bread picture" class="images-card"></a>
-                </article>
-                <article class="pictures-container--card">
-                    <a href="#" class="images-link"><img src="../img/dumpling.jpg" alt="dumplings picture" class="images-card"></a>
-                </article>
-                <article class="pictures-container--card extra-card">
-                    <a href="#" class="images-link"><img src="../img/bubble-tea.jpg" alt="dumplings picture" class="images-card"></a>
-                </article>
+                <div class=" image2">
+                    <img src="../img/ramen.jpg" alt="ramen picture" class="image">
+                    <img src="../img/latte-and-bread.jpg" alt="latte and bread picture" class="image">
+                    <img src="../img/bubble-tea.jpg" alt="bubble-tea picture" class="image">
+                    <img src="../img/teas.jpg" alt="tea picture" class="image">
+                </div>
             </section>
-        </section>
-        <section class="about-me">
+                <!-- check some pictures -->
+                <h3 class="subtitle pictures-title">check some pictures</h3>
+                <section class="images-container--slider">
+                    <article class="pictures-container--card">
+                        <a href="#" class="images-link"><img src="../img/french-pastry.jpg" alt="french pastry picture" class="images-card"></a>
+                    </article>
+                    <article class="pictures-container--card">
+                        <a href="#" class="images-link"><img src="../img/coffee-with-decoration.jpg" alt=" coffee and bread picture" class="images-card"></a>
+                    </article>
+                    <article class="pictures-container--card">
+                        <a href="#" class="images-link"><img src="../img/dumpling.jpg" alt="dumplings picture" class="images-card"></a>
+                    </article>
+                    <article class="pictures-container--card extra-card">
+                        <a href="#" class="images-link"><img src="../img/bubble-tea.jpg" alt="dumplings picture" class="images-card"></a>
+                    </article>
+                </section>
+            </section>
+        <!-- about me  -->
+        <section class="about-me" id="aboutMeSection">
             <section class="blog-content-container">
                 <article class="article-post-container text-mobile">
                     <img src="../img/profile-picture.png" alt="profile picture" class="images-blog-post img1 profile-image">
@@ -233,9 +233,9 @@
             </section>
         </section>
     </main> 
-    <footer class="footer">
-    <p class="text-home-page footer-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus</p>
-    <div class="social-networks">
+    <footer class="footer" id="footer-section">
+        <p class="text-home-page footer-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus</p>
+        <div class="social-networks">
             <p class="follow-text">Follow me</p>
             <img src="../img/icons/Instagram-logo-White.png" alt="instagram logo" class="social-logo">
             <img src="../img/icons/facebook-logo-white.png" alt="facebook logo" class="social-logo">
