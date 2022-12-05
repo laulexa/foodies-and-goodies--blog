@@ -15,7 +15,12 @@
     justify-content: center;
 }
 .title1 {
-    grid-area: 1/2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.txt2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 .article-post-container {
     width: auto;

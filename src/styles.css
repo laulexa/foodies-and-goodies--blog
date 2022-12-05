@@ -293,10 +293,13 @@ main {
 }
 .blog-article-title {
     font-size: var(--large);
-    margin: 15px 20px 0;
+    margin: 15px 20px 10px;
     font-weight: bold;
     text-align: center;
     border-bottom:  2px solid var(--dark-pink);
+}
+.text-mobile {
+    width: auto;
 }
 /* .inactive {
     display: none;
@@ -333,6 +336,9 @@ main {
             height: 220px;
             object-fit: cover;
         }
+        .article-image {
+            display: none;
+        }
         .text-home-page {
             margin: 10px 20px;
             place-items: center;
@@ -368,7 +374,7 @@ main {
             
         }
         .article-post-container {
-            width: auto;
+            width: 800px;
             margin: 20px;
         }
         .text-home-page {
@@ -499,4 +505,7 @@ main {
     .desktop-article {
         display: inline-block;
     }
+    /* .article-image {
+        display: none;
+    } */
 }
