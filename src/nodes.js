@@ -5,7 +5,7 @@ const blogContentSection = document.querySelector("#blogContentSection");
 const aboutMeSection = document.querySelector("#aboutMeSection");
 const navBarSection = document.querySelector("#navBarHeader");
 //elements
-const homeBtn = document.querySelector('.home-btn');
-const blogBtn = document.querySelector('.blog-btn');
+const homeBtn = document.querySelector('#homeId');
+const blogBtn = document.querySelector('#blogId');
 const restaurantsBtn = document.querySelector('.restaurants-btn');
 const aboutMeBtn = document.querySelector('.about-me-button');
