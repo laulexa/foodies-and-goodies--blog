@@ -9,3 +9,6 @@ const homeBtn = document.querySelector('#homeId');
 const blogBtn = document.querySelector('#blogId');
 const restaurantsBtn = document.querySelector('.restaurants-btn');
 const aboutMeBtn = document.querySelector('.about-me-button');
+const mobileMenu = document.querySelector('.mobile-menu');
+const iconMenuBtn = document.querySelector('.hamburger-menu-icon');
+const desktopMenu = document.querySelector('.desktop-nav-bar');

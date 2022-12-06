@@ -13,28 +13,38 @@
 <body>
     <header id="navBarHeader">
         <!-- mobile nab-bar -->
-        <nav class="mobile-nav-bar">
-            <img src="../img/icons/hamburguer-menu.png" alt="Menu" class="hamburguer-menu-icon">
-                <h1 class="title">Foodielexa</h1>
-            <div class="magnifying-glass-icon-mobile">
-                <span class="magnifying-glass-icon"><img src="../img/icons/magnifying-glass.png" alt="Magnifying glass">
-                </span>
+        <nav>
+            <div class="mobile-nav-bar">
+                <img src="../img/icons/hamburger-menu.png" alt="Menu" class="hamburger-menu-icon">
+                    <h1 class="title">Foodielexa</h1>
+                <div class="magnifying-glass-icon-mobile">
+                    <span class="magnifying-glass-icon"><img src="../img/icons/magnifying-glass.png" alt="Magnifying glass">
+                    </span>
+                </div>
             </div>
-        </nav>
-        <!-- desktop nav-bar -->
-        <nav class="desktop-nav-bar">
-            <div class="navbar-left">
-                <ul class="nav-bar-list">
-                    <li class="item home-btn"><a href="#home" id="homeId">Home</a></li>
-                    <li class="item blog-btn"><a href="#article" id="blogId">Blog</a></li>
-                    <li class="item restaurants-btn"><a href="#restaurants">Restaurants</a></li>
-                    <li class="item about-me-button"><a href="#aboutme">About Me</a></li>
+            <!-- desktop nav-bar -->
+            <div class="desktop-nav-bar inactive">
+                <div class="navbar-left">
+                    <ul class="nav-bar-list">
+                        <li class="item home-btn"><a href="#home" id="homeId">Home</a></li>
+                        <li class="item blog-btn"><a href="#article" id="blogId">Blog</a></li>
+                        <li class="item restaurants-btn"><a href="#restaurants">Restaurants</a></li>
+                        <li class="item about-me-button"><a href="#aboutme">About Me</a></li>
+                    </ul>
+                </div>
+                <div class="input-wrapper">
+                    <input type="search" placeholder="search" class="search-bar">
+                    <span class="magnifying-glass-icon-desktop"><img src="../img/icons/magnifying-glass-lp.png" alt="Magnifying glass">
+                    </span>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#article">Blog</a></li>
+                    <li><a href="#restaurants">Restaurants</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
                 </ul>
-            </div>
-            <div class="input-wrapper">
-                <input type="search" placeholder="search" class="search-bar">
-                <span class="magnifying-glass-icon-desktop"><img src="../img/icons/magnifying-glass-lp.png" alt="Magnifying glass">
-                </span>
             </div>
         </nav>
     </header>

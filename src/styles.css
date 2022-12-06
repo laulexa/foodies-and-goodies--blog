@@ -44,7 +44,7 @@ header {
 .magnifying-glass-icon-mobile {
     padding: 20px;
 }
-.hamburguer-menu-icon {
+.hamburger-menu-icon {
     padding: 20px;
 }
 main {
@@ -227,9 +227,7 @@ main {
     height: 15px;
     margin-left: 2px;
 }
-/* .inactive {
-    display: none;
-} */
+
 /* height: 491px;
     object-fit: cover; */
     
@@ -416,7 +414,7 @@ main {
         color: white;  
         font-weight: 800px; 
     }
-    .hamburguer-menu-icon {
+    .hamburger-menu-icon {
         display: none;
     }
     .mobile-nav-bar {
