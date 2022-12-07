@@ -13,7 +13,10 @@
 }
 body {
     font-family: 'Dosis', sans-serif;
+    position: relative;
+    min-height: 100vh;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -223,12 +226,14 @@ main {
 .extra-card {
     display: none;
 }
+.profile-image {
+    margin: 50px 0;
+}
 .footer  {
     display: flex;
     justify-content: space-around;
     background-color: var(--dark-pink);
     align-content: center;
-    min-width: 400px;
 }
 .footer-text {
     color: white;
@@ -323,6 +328,9 @@ main {
 }
 .text-mobile {
     width: auto;
+}
+.txtMobile {
+    margin-bottom: 60px;
 }
 .inactive {
     display: none;
